@@ -20,7 +20,7 @@ This is where the vast majority of your CSS code goes. */
 The following CSS rule changes the font size of all Buttons that have the
 "-primary" class modifier.
 */
-Button {
+.btn {
     background: #7c015d;
     border-width: 1;
     border-color: #7c015d;
