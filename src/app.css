@@ -20,13 +20,25 @@ This is where the vast majority of your CSS code goes. */
 The following CSS rule changes the font size of all Buttons that have the
 "-primary" class modifier.
 */
+.main-container {
+    margin-top: 25;
+}
+
 .btn {
     background: #7c015d;
     border-width: 1;
     border-color: #7c015d;
     color: white;
-    width: 250;
-    padding: 5 10;
+    width: 100%;
     border-radius: 30%;
-    margin: 5 0;
+    padding: 0;
+    margin: 0;
+}
+
+.form-control {
+    border-bottom-color: #7c015d;
+    border-bottom-width: 2;
+    font-size: 20;
+    margin: 0;
+    padding: 0;
 }

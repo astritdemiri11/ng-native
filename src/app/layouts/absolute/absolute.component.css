@@ -1,0 +1,23 @@
+AbsoluteLayout {
+    border-color: black;
+    border-width: 5;
+    border-style: dotted;
+    height: 100%;
+}
+
+.item {
+    width: 50;
+    height: 50;
+}
+
+.item1 {
+    background-color: red;
+}
+
+.item2 {
+    background-color: green;
+}
+
+.item3 {
+    background-color: blue;
+}

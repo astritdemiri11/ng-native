@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { ItemEventData } from '@nativescript/core';
 
 @Component({
     selector: 'ns-current-challenge',
@@ -6,18 +7,13 @@ import { Component, OnInit } from '@angular/core';
     styleUrls: ['./current-challenge.component.css']
 })
 
-export class CurrentChallengeComponent implements OnInit {
-    challengeTitle: string;
-    currentChallenge: string;
+export class CurrentChallengeComponent {
+    // @Input() challenges: string [];
+    @Input() challenge: string;
 
-    constructor() {
-        this.challengeTitle = '';
-        this.currentChallenge = '';
-     }
+    constructor() {}
 
-    onSetChallenge() {
-        this.currentChallenge = this.challengeTitle;
+    onItemTap(challenge: ItemEventData) {
+        console.log(challenge);
     }
-
-    ngOnInit() { }
 }

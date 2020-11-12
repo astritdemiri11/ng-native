@@ -1,3 +1,7 @@
+GridLayout {
+    height: 65;
+}
+
 .title {
     font-size: 26;
     text-align: center;

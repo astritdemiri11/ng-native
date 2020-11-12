@@ -1,3 +1,18 @@
-<StackLayout>
-  <ns-current-challenge></ns-current-challenge>
+<StackLayout class="main-container">
+  <ns-challenge-edit (challengeChange)="onChallengeChange($event)"></ns-challenge-edit>
+  <ns-current-challenge [challenge]="challenge"></ns-current-challenge>
+
+  <!-- Start: Test 1 -->
+  <!-- <ns-current-challenge [challenges]="challenges"></ns-current-challenge> -->
+  <!-- End: Test 1 -->
+
+  <!-- Start: Test 2 -->
+  <!-- <ns-stack></ns-stack> -->
+  <!-- <ns-flexbox></ns-flexbox> -->
+  <!-- <ns-grid></ns-grid> -->
+  <!-- <ns-absolute></ns-absolute> -->
+  <!-- End: Test 2 -->
+
+  <!-- <Label text="Works Great!!! Works Great!!! Works Great!!! Works Great!!!"></Label> -->
 </StackLayout>
+
